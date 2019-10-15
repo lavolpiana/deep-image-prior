@@ -6,6 +6,19 @@ import PIL
 from PIL import Image
 import tensorflow as tf
 
+#################################
+
+#@article{UlyanovVL17,
+#    author    = {Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor},
+#    title     = {Deep Image Prior},
+#    journal   = {arXiv:1711.10925},
+#    year      = {2017}
+#}
+
+###################################
+
+
+
 def cifar10_grid(X,Y,n_row,n_col,cifar10_class_name=None,resize=None,figsize=(10,10),interpolation="nearest"): 
     """
     Args :

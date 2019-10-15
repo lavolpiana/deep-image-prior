@@ -2,6 +2,18 @@ import os
 import numpy as np
 import tensorflow as tf
 
+#################################
+
+#@article{UlyanovVL17,
+#    author    = {Ulyanov, Dmitry and Vedaldi, Andrea and Lempitsky, Victor},
+#    title     = {Deep Image Prior},
+#    journal   = {arXiv:1711.10925},
+#    year      = {2017}
+#}
+
+###################################
+
+
 all_losses = {'mse': tf.losses.mean_squared_error,
 'smoothL1': tf.losses.huber_loss,
 'L1': tf.losses.absolute_difference}
